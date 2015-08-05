@@ -242,10 +242,13 @@ a:hover .fa-circle {
     outline: 0;
 }
 .navbar-custom .nav li.active a {
-    color: #00a8ff;
+        color: #ffffff;
+    border-bottom: 4px solid;
+    border-bottom-color: white;
 }
 .navbar-custom .nav li.active a:hover {
     color: #fff;
+
 }
 @media(min-width:768px) {
     .navbar-custom {
