@@ -202,7 +202,8 @@ a:hover .fa-circle {
     text-transform: none;
 }
 .navbar-custom.top-nav-collapse .navbar-brand {
-    font-size: 18px;
+    font-size: 26px;
+    line-height: 30px;
 }
 .navbar-custom .navbar-brand:focus {
     outline: 0;
@@ -732,4 +733,8 @@ a.project-link:hover {
     #contact, #mission, #about, .intro {
         background-attachment: scroll;
     }
+}
+
+.fa-5x {
+    font-size: 5em;
 }
