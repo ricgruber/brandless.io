@@ -466,12 +466,121 @@ a:hover .fa-circle {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(255, 255, 255, 0.8);
+    background-color: rgba(88, 88, 88, 0.8);
+   
+    background-repeat: no-repeat;
+   /* background-position: 50% 30%;
+    background-size: 55%;*/
+
     cursor: pointer;
     -webkit-transition: all 0.6s ease 0s;
     -moz-transition: all 0.6s ease 0s;
     transition: all 0.6s ease 0s;
 }
+
+
+
+/*Custom Client Logo Invocation*/
+
+.gspizza{
+    background-image: url(../img/client-logos/gspizza.png); 
+    background-position: 50% 30%;
+    background-size: 45%;
+}
+
+.industrious{
+    background-image: url(../img/client-logos/industrious.png); 
+    background-position: 50% 30%;
+    background-size: 40%;
+}
+
+
+.dolphin{
+    background-image: url(../img/client-logos/dolphin.png); 
+    background-position: 50% 30%;
+    background-size: 65%;
+}
+
+.atk{
+    background-image: url(../img/client-logos/atk.png); 
+    background-position: 50% 30%;
+    background-size: 40%;
+}
+
+.zymology{
+    background-image: url(../img/client-logos/Zymology.png); 
+    background-position: 50% 30%;
+    background-size: 30%;
+}
+
+.bricks{
+    background-image: url(../img/client-logos/bricks.png); 
+    background-position: 50% 30%;
+    background-size: 40%;
+}
+
+.gsf{
+    background-image: url(../img/client-logos/gale-sayers-foundation.png); 
+    background-position: 50% 30%;
+    background-size: 30%;
+}
+
+.norberg{
+    background-image: url(../img/client-logos/jeffnorberg.png); 
+    background-position: 50% 30%;
+    background-size: 40%;
+}
+
+.nybo{
+    background-image: url(../img/client-logos/nybo_white.png); 
+    background-position: 50% 30%;
+    background-size: 40%;
+}
+
+.pgip{
+    background-image: url(../img/client-logos/PGIP.png); 
+    background-position: 50% 30%;
+    background-size: 50%;
+}
+
+.bruno{
+    background-image: url(../img/client-logos/bruno.png); 
+    background-position: 50% 30%;
+    background-size: 40%;
+}
+
+.amaranto{
+    background-image: url(../img/client-logos/AmarantoLogowht2.png); 
+    background-position: 50% 30%;
+    background-size: 35%;
+}
+
+.les{
+    background-image: url(../img/client-logos/leslogo.png); 
+    background-position: 50% 30%;
+    background-size: 65%;
+}
+
+.ventureconnects{
+    background-image: url(../img/client-logos/ventureconnects.png); 
+    background-position: 50% 30%;
+    background-size: 45%;
+}
+
+.fullerhouse{
+    background-image: url(../img/client-logos/fullerhouse.png); 
+    background-position: 50% 30%;
+    background-size: 35%;
+}
+
+.chellah{
+    background-image: url(../img/client-logos/chellah.png); 
+    background-position: 50% 30%;
+    background-size: 45%;
+}
+
+
+
 .project-item .project-link .caption:hover,
 #project img:hover,
 #project img:focus,
@@ -491,7 +600,7 @@ a.project-link:hover {
     bottom: 0;
     left:0;
     font-size: 16px;
-    color: #333;
+    color: #FFFFFF;
     text-transform: uppercase;
     font-weight: 700;
     padding: 30px;
