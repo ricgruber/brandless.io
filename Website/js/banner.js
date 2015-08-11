@@ -109,6 +109,6 @@ $(document).ready(function() {
 function setHero(img,tagline,punchline) {
 	$('.intro').css('background-image',img);
 	$('.intro h1').html(tagline);
-	$('.into p').html(punchline);
+	$('.intro p').html(punchline);
 
 }
