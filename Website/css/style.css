@@ -716,6 +716,8 @@ a.project-link:hover {
 #mission .fa {
     display: block;
     padding: 30px 0;
+    font-size: 5em;
+    text-align: center
 }
 
 /* Contact */
