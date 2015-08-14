@@ -2,13 +2,13 @@ var banners = [];
 banners.push({
 	background:"url('img/hero/ass.jpg')",
 	tagline:"Don't be an ass.",
-	punchline:"test"
+	punchline:"saddle up, take control of your website."
 
 });
 banners.push({
 	background:"url('img/hero/cat.jpg')",
 	tagline:"Cat got your tongue?",
-	punchline:"Let us write for you"
+	punchline:"Let us write for you."
 });
 banners.push({
 	background:"url('img/hero/cookies.jpg')",
@@ -45,11 +45,7 @@ banners.push({
 	tagline:"Don't monkey around.",
 	punchline:"Your brand is important."
 });
-banners.push({
-	background:"url('img/hero/table.jpg')",
-	tagline:"Eating alone?",
-	punchline:"Maybe its your web presence."
-});
+
 banners.push({
 	background:"url('img/hero/snail.jpg')",
 	tagline:"Is your brand slowing you down?",
@@ -76,6 +72,11 @@ banners.push({
 	punchline:"Step up your digital game."
 });
 banners.push({
+	background:"url('img/hero/table.jpg')",
+	tagline:"Eating alone?",
+	punchline:"Maybe its your web presence."
+});
+banners.push({
 	background:"url('img/hero/sheep.jpg')",
 	tagline:"Fleeced by other developers?",
 	punchline:"Don't let it happen again."
@@ -87,8 +88,13 @@ banners.push({
 });
 banners.push({
 	background:"url('img/hero/meter.jpg')",
-	tagline:"Times Up.",
+	tagline:"Time's Up.",
 	punchline:"Tell your brand to get it together."
+});
+banners.push({
+	background:"url('img/hero/feet.jpg')",
+	tagline:"Take a leap of faith",
+	punchline:"It might do you some good."
 });
 
 $(document).ready(function() {

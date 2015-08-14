@@ -54,7 +54,7 @@ a:focus {
 }
 
 .headerline {
-    border-bottom: 1px solid #00a8ff;
+    border-bottom: 1px solid #B1B1B1;
     padding-bottom: 15px;
     display: inline-block;
 }
@@ -127,11 +127,14 @@ section {
     background-color: transparent;
 }
 
+.split-padding4{
+    padding: 100px 50px 50px;
+}
+
 .split-padding0,
 .split-padding,
 .split-padding2,
 .split-padding3,
-.split-padding4,
 .split-padding5 {
     padding: 100px 60px 50px;
 }
@@ -541,7 +544,7 @@ a:hover .fa-circle {
 .pgip{
     background-image: url(../img/client-logos/PGIP.png); 
     background-position: 50% 30%;
-    background-size: 50%;
+    background-size: 70%;
 }
 
 .bruno{
@@ -578,6 +581,26 @@ a:hover .fa-circle {
     background-image: url(../img/client-logos/chellah.png); 
     background-position: 50% 30%;
     background-size: 45%;
+}
+.fundconference{
+    background-image: url(../img/client-logos/fundconference.png); 
+    background-position: 50% 30%;
+    background-size: 55%;
+}
+.openlegal{
+    background-image: url(../img/client-logos/Openlegal.png); 
+    background-position: 50% 30%;
+    background-size: 65%;
+}
+.aleksybelcher{
+    background-image: url(../img/client-logos/aleksy-belcher.png); 
+    background-position: 50% 30%;
+    background-size: 75%;
+}
+.charlieward{
+    background-image: url(../img/client-logos/charlieward.png); 
+    background-position: 50% 30%;
+    background-size: 70%;
 }
 
 
@@ -679,7 +702,8 @@ a.project-link:hover {
         transform: scale(1);
     }
     .project-item .project-link .caption .caption-content {
-        left: 50px;
+        /*left: 50px;*/
+        letter-spacing: .9px;
     }
 }
 
@@ -776,4 +800,32 @@ a.project-link:hover {
         width: 20%;
         float: left;
     }
+}
+
+
+/*circle icon backdrop*/
+
+.circle-outter{
+    border: 1px solid #B1B1B1;
+    background-color: #B1B1B1;
+    border-radius: 50%;
+    vertical-align: middle;
+    padding: 50px;
+    height:100%;
+
+}
+
+.circle-outter:hover{
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #B1B1B1;
+    border-radius: 50%;
+    vertical-align: middle;
+    padding: 50px;
+    height: 100%;
+    
+}
+
+a{
+    color:#000000;
 }

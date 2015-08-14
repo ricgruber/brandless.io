@@ -1,7 +1,5 @@
 /*!
- * LoveHub - Multipurpose Non-Profit Theme
- * Copyright 1994-2015 ForBetterWeb.com
- * To use this theme you must have a license purchased at WrapBootstrap (https://wrapbootstrap.com)
+ * Author // kevroe // brandless.io
  */
 
 // jQuery to collapse the navbar on scroll
